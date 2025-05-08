@@ -6,7 +6,7 @@ import axios from 'axios';
 import './App.css';
 
 function getCurrency(amount, currency) {
-  return axios.post('http://localhost:3000/convert', {
+  return axios.post('https://currency-converter-ui21.onrender.com', {
     amount: amount,
     currency: currency
   })
