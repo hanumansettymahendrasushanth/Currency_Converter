@@ -19,9 +19,9 @@ app.use(cors({
 app.use(express.json());
 
 
-// app.get('/', (req, res) => {
-//   res.send('Currency Converter Backend');
-// });
+app.get('/', (req, res) => {
+  res.send('Currency Converter Backend');
+});
 
 // POST 
 app.post('/convert', (req, res) => {
