@@ -12,7 +12,7 @@ const Rates = {
 
 
 app.use(cors({
-  origin: 'https://currency-converter-tau-eight.vercel.app/',
+  origin: 'https://currency-converter-tau-eight.vercel.app',
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type']
 }));
